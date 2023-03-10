@@ -11,6 +11,8 @@ public class ExecuteMain {
 		if (args.length > 0) {
 			System.out.println("List of arguments: " + Arrays.toString(args));
 		}
+		
+		AnimalMain.main(args);
 	}
 
 }
