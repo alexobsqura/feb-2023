@@ -13,7 +13,7 @@ public class Circle extends Shape {
 		this.radius = radius;
 	}
 
-	public String print() {
+	public String display() {
 
 		// super keyword represents parent class object in child class instance methods
 		return super.display() + ", Radius : " + radius;
